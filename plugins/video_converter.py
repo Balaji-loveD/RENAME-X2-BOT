@@ -74,7 +74,7 @@ async def convert(bot, update):
                 text=Scripted.TRYING_TO_UPLOAD,
                 chat_id=update.chat.id,
                 message_id=c.message_id
-            )
+        )
             logger.info(the_real_download_location)
             width = 0
             height = 0
