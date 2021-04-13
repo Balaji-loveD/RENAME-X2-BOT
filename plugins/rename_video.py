@@ -48,7 +48,7 @@ async def rename_video(bot, update):
             await update.reply_text(
                 text=Translation.JOIN_NOW_TEXT,
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="ᴊᴏɪɴ ɴᴏᴡ 🔓", url="https://t.me/{Config.UPDATE_CHANNEL") ]
+                    [ InlineKeyboardButton(text="ᴊᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/{Config.UPDATE_CHANNEL") ]
                 ] 
               )
             )
