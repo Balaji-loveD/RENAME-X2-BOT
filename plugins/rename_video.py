@@ -42,11 +42,11 @@ async def rename_video(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(Translation.ACCESS_DENIED)
+               await update.reply_text(Scripted.ACCESS_DENIED)
                return
         except UserNotParticipant:
             await update.reply_text(
-                text=Translation.JOIN_NOW_TEXT,
+                text=Scripted.JOIN_NOW_TEXT,
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="ᴊᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/{Config.UPDATE_CHANNEL}") ]
                 ] 
@@ -54,17 +54,17 @@ async def rename_video(bot, update):
             )
             return
         except Exception:
-            await update.reply_text(Translation.CONTACT_MY_DEVELOPER)
+            await update.reply_text(Scripted.CONTACT_MY_DEVELOPER)
             return
 
     if (" " in update.text) and (update.reply_to_message is not None):
         cmd, file_name = update.text.split(" ", 1)
         new_file = file_name[:60] + file_name[-4:]
-        description = Translation.CUSTOM_CAPTION.format(file_name)
+        description = Scripted.CUSTOM_CAPTION.format(file_name)
         download_location = Config.DOWNLOAD_LOCATION + "/"
-        a = await bot.send_message(
+        c = await bot.send_message(
             chat_id=update.chat.id,
-            text=Translation.PROCESSING_TEXT,
+            text=Scripted.PROCESSING_TEXT,
             reply_to_message_id=update.message_id
         )
         c_time = time.time()
@@ -73,24 +73,24 @@ async def rename_video(bot, update):
             file_name=download_location,
             progress=progress_for_pyrogram,
             progress_args=(
-                Translation.RENAMING_VIDEO,
-                a,
+                Scripted.RENAMING_VIDEO,
+                C,
                 c_time
             )
         )
         if the_real_download_location is not None:
             try:
                 await bot.edit_message_text(
-                text=Translation.RENAMED_SUCCESS,
+                text=Scripted.RENAMED_SUCCESS,
                 chat_id=update.chat.id,
-                message_id=a.message_id
+                message_id=c.message_id
                 )
             except:
                 pass
             new_file_name = download_location + file_name
             os.rename(the_real_download_location, new_file_name)
             await bot.edit_message_text(
-            text=Translation.TRYING_TO_UPLOAD,
+            text=Scripted.TRYING_TO_UPLOAD,
             chat_id=update.chat.id,
             message_id=a.message_id
                 )
@@ -137,8 +137,8 @@ async def rename_video(bot, update):
                 reply_to_message_id=update.reply_to_message.message_id,
                 progress=progress_for_pyrogram,
                 progress_args=(
-                    Translation.UPLOAD_START,
-                    a, 
+                    Scripted.UPLOAD_START,
+                    c, 
                     c_time
                 )
             )
