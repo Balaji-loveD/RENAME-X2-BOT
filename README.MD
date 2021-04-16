@@ -20,7 +20,7 @@ License -> https://github.com/SPACE-X-BOTS/RENAME-X2-BOT/blob/master/LICENSE
 
 ### BOT COMMANDS
 
-* start -  👻  Check I'm alive or dead
+* rename_video - Rename telegram videos
 * rename -  ✍🏼 Rename telegram files
 * convert -  🔄  Convert file to video
 * sthumbnail -  🌌   Current Thumbnail
