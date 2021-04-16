@@ -1,4 +1,5 @@
 numpy
+ffmpeg
 Pillow
 aiohttp
 hachoir
@@ -6,6 +7,7 @@ pyrogram
 requests
 tgcrypto
 feedparser
+ffmpeg-python
 beautifulsoup4
 psycopg2-binary
 sqlalchemy==1.3.23
