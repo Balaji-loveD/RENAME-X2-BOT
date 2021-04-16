@@ -2,6 +2,7 @@
 
 import os
 import time
+import ffmpeg
 import random
 import logging
 import pyrogram
