@@ -74,7 +74,7 @@ async def rename_video(bot, update):
             progress=progress_for_pyrogram,
             progress_args=(
                 Scripted.RENAMING_VIDEO,
-                C,
+                c,
                 c_time
             )
         )
