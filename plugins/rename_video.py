@@ -155,5 +155,5 @@ async def rename_video(bot, update):
     else:
         await bot.send_message(
         chat_id=update.chat.id,
-        text=Translation.REPLY_TO_VIDEO,
+        text=Scripted.REPLY_TO_VIDEO,
         reply_to_message_id=update.message_id)
