@@ -9,44 +9,44 @@ class Scripted(object):
 
 
     HELP_TEXT = """
-<i>Watch Video How to Use Me <a href='https://youtu.be/HnXdu74o34E'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></i>\n
-<i>Send a photo to make it as thumbnail (optional)</i>\n
-<i>Send me any file (or) Media from telegram</i>\n
-<i>Convert files into video use /convert command</i>\n
-<i>Reply to that file with /rename new name.ext</i>\n
-<i>View your thumbnail do /sthumbnail command</i>\n
-<i>Delete your thumbnail do /dthumbnail command</i>"""
+Watch Video How to Use Me <a href='https://youtu.be/HnXdu74o34E'>[ ©lick here ]</a>\n
+Send a photo to make it as thumbnail (optional)\n
+Send me any file (or) Media from telegram\n
+Convert files into video use /convert command\n
+Reply to that file with /rename new name.ext\n
+View your thumbnail do /sthumbnail command\n
+Delete your thumbnail do /dthumbnail command"""
 
 
     ABOUT_TEXT = """
-<b>My Name : <a href='https://t.me/Rename_x2_Bot'>Rename X2 Bot</a></b>\n
-<b>Channel : <a href='https://t.me/space_x_bots'>Space X Bots</a></b>\n
-<b>Version : <a href='https://t.me/Rename_x2_Bot'>0.9.2 beta</a></b>\n
-<b>Source : <a href='https://github.com/Clinton-Abraham'>Click Here</a></b>\n
-<b>Server : <a href='https://heroku.com'>Heroku</a></b>\n
-<b>Library : <a href='https://github.com/pyrogram'>Pyrogram 1.2.8</a></b>\n
-<b>Language : <a href='https://www.python.org'>Python 3.9.4</a></b>\n
-<b>Developer : <a href='https://t.me/clinton_abraham'>℃ℓ𝖏ήtø𝐧 ᗩ𝔟ⓡ𝐚ꫝαＭ</a></b>\n
-<b>Powered By : <a href='https://t.me/tamilweb57'>Tᴀᴍɪʟᴡᴇʙ Tɢ Nᴇᴛᴡᴏʀᴋ</a></b>\n"""
+<b>My Name :</b> <a href='https://t.me/Rename_x2_Bot'>Rename X2 Bot</a>\n
+<b>Channel :</b> <a href='https://t.me/space_x_bots'>Space X Bots</a>\n
+<b>Version :</b> <a href='https://t.me/Rename_x2_Bot'>0.9.2 beta</a>\n
+<b>Source :</b> <a href='https://github.com/Clinton-Abraham'>Click Here</a>\n
+<b>Server :</b> <a href='https://heroku.com'>Heroku</a>\n
+<b>Library :</b> <a href='https://github.com/pyrogram'>Pyrogram 1.2.8</a>\n
+<b>Language :</b> <a href='https://www.python.org'>Python 3.9.4</a>\n
+<b>Developer :</b> <a href='https://t.me/clinton_abraham'>℃ℓ𝖏ήtø𝐧 ᗩ𝔟ⓡ𝐚ꫝαＭ</a>\n
+<b>Powered By :</b> <a href='https://t.me/tamilweb57'>Tᴀᴍɪʟᴡᴇʙ Tɢ Nᴇᴛᴡᴏʀᴋ</a>\n"""
 
 
     CUSTOM_CAPTION = "<i>{}</i>"
-    PROCESSING_TEXT = "<i>Processing...</i>"
-    ACCESS_DENIED = "<b>¥ou Are Banned 🚫</b>"
-    BANNED_USER_TEXT = "<i>¥ou Are Banned 🚫</i>"
-    TRYING_TO_UPLOAD = "<i>Trying to upload....</i>"
-    CURRENT_THUMBNAIL = "<i>Your Current Thumbnail 🎭</i>"
-    THUMBNAIL_SAVED = "<i>Your Thumbnail Saved ✅</i>"
-    THUMBNAIL_DELETED = "<i>Your Thumbnail Deleted ✅</i>"
-    NO_THUMBNAIL_FOUND = "<i>No Thumbnail Found 😟</i>"
-    TRYING_TO_DOWNLOAD = "<i>Trying To Download....</i>"
-    UPLOAD_SUCCESS = "<u><i>Thank u for using me 🥰</i></u>"
-    REPLY_TO_VIDEO = "<i>Reply to that file with /convert</i>"
-    UPLOAD_START = "<i>Uploading your file please wait...</i>\n"
-    DOWNLOAD_START = "<i>Downloding your file please wait...</i>\n"
+    PROCESSING_TEXT = "Processing..."
+    ACCESS_DENIED = "¥ou Are Banned 🚫"
+    BANNED_USER_TEXT = "¥ou Are Banned 🚫"
+    TRYING_TO_UPLOAD = "Trying to upload...."
+    CURRENT_THUMBNAIL = "Your Current Thumbnail 🎭"
+    THUMBNAIL_SAVED = "Your Thumbnail Saved ✅"
+    THUMBNAIL_DELETED = "Your Thumbnail Deleted ✅"
+    NO_THUMBNAIL_FOUND = "No Thumbnail Found 😟"
+    TRYING_TO_DOWNLOAD = "Trying To Download...."
+    UPLOAD_SUCCESS = "Thank u for using me 🥰"
+    REPLY_TO_MEDIA = "Reply to that Media with /convert"
+    UPLOAD_START = "Uploading your file please wait...\n"
+    DOWNLOAD_START = "Downloding your file please wait...\n"
     JOIN_NOW_TEXT = "<code>Join My Update Channel To Use Me</code>"
-    REPLY_TO_FILE = "<i>Reply to that file with /rename new name.ext</i>"
-    CONTACT_MY_DEVELOPER = "<i>Something Wrong Contact My Developer 🤯</i>"
-    REPLY_TO_MEDIA = "<i>Reply to that Media with /rename_video New Name</i>"
-    START_TEXT = "<i>Simple file rename bot with permanent thumbnail support 💯</i>"
-    UPGRADE_TEXT = "<b>To upgrade your subscription <a href='https://t.me/Anydl_x_bot'>[ Click Here ]</a></b>"
+    REPLY_TO_FILE = "Reply to that file with /rename new name.ext"
+    CONTACT_MY_DEVELOPER = "Something Wrong Contact My Developer 🤯"
+    REPLY_TO_VIDEO = "Reply to that file with /rename_video Newname.mkv"
+    START_TEXT = "Simple file rename bot with permanent thumbnail support 💯"
+    UPGRADE_TEXT = "To upgrade your subscription <a href='https://t.me/Anydl_x_bot'>[ Click Here ]</a>"
