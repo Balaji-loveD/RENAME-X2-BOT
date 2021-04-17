@@ -31,7 +31,7 @@ class Scripted(object):
 
 
     CUSTOM_CAPTION = "<i>{}</i>"
-    PROCESSING_TEXT = <i>Processing...</i>
+    PROCESSING_TEXT = "<i>Processing...</i>"
     ACCESS_DENIED = "<b>¥ou Are Banned 🚫</b>"
     BANNED_USER_TEXT = "<i>¥ou Are Banned 🚫</i>"
     TRYING_TO_UPLOAD = "<i>Trying to upload....</i>"
