@@ -31,6 +31,7 @@ class Scripted(object):
 
 
     CUSTOM_CAPTION = "<i>{}</i>"
+    PROCESSING_TEXT = <i>Processing...</i>
     ACCESS_DENIED = "<b>¥ou Are Banned 🚫</b>"
     BANNED_USER_TEXT = "<i>¥ou Are Banned 🚫</i>"
     TRYING_TO_UPLOAD = "<i>Trying to upload....</i>"
@@ -40,11 +41,12 @@ class Scripted(object):
     NO_THUMBNAIL_FOUND = "<i>No Thumbnail Found 😟</i>"
     TRYING_TO_DOWNLOAD = "<i>Trying To Download....</i>"
     UPLOAD_SUCCESS = "<u><i>Thank u for using me 🥰</i></u>"
-    REPLY_TO_MEDIA = "<i>Reply to that Media with /convert</i>"
+    REPLY_TO_VIDEO = "<i>Reply to that file with /convert</i>"
     UPLOAD_START = "<i>Uploading your file please wait...</i>\n"
     DOWNLOAD_START = "<i>Downloding your file please wait...</i>\n"
     JOIN_NOW_TEXT = "<code>Join My Update Channel To Use Me</code>"
     REPLY_TO_FILE = "<i>Reply to that file with /rename new name.ext</i>"
     CONTACT_MY_DEVELOPER = "<i>Something Wrong Contact My Developer 🤯</i>"
+    REPLY_TO_MEDIA = "<i>Reply to that Media with /rename_video New Name</i>"
     START_TEXT = "<i>Simple file rename bot with permanent thumbnail support 💯</i>"
     UPGRADE_TEXT = "<b>To upgrade your subscription <a href='https://t.me/Anydl_x_bot'>[ Click Here ]</a></b>"
